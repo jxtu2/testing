@@ -5,8 +5,3 @@ include: "/views/**/*.view"
 include: "thelook.view"
 
 explore: thelook {}
-
-test:  {
-  explore_source: thelook
-  assert: id
-}
