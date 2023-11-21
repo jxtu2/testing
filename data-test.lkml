@@ -6,6 +6,7 @@ test: order_id_is_unique {
     sorts: [order_items.count: desc]
     limit: 1
   }
+
   assert: order_id_is_unique {
     expression: ${order_items.count} = 1 ;;
   }
