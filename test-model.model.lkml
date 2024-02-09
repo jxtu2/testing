@@ -1,4 +1,4 @@
-connection: "thelook_stable"
+connection: "thelook"
 
 include: "thelook.view"
 
